@@ -1,8 +1,7 @@
 .Icon{
     width: 100px;
     height: auto;
-    border: solid 1px black;
-    box-sizing:border-box;
+    border: solid 1px black;   
 }
 .IconContainer{
     padding: 3px;
@@ -10,24 +9,27 @@
     justify-content: center;
     margin-bottom: 10px;
 }
-.TotalContainer{
+.cTodo{
     width: 100%;
-    max-width: 600px;
-    min-width:400px;
-    justify-self: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    height: 500px;
-    justify-content: center;
-    border: 1px black solid;
-    box-sizing:border-box;
+    padding: 100px 0px 0px 0px;
+}
+.TotalContainer{
+    padding: 10px 0px 0px 0px;
+    width: 40%;
+    max-width: 500px;
+    min-width:500px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
 }
 .cData{
     width: 40%; 
     padding: 10px 0px 0 0px;
     display: flex;
     flex-direction: column;
-    box-sizing:border-box;
     align-self: center;
     text-align: left;
 }
@@ -40,15 +42,13 @@ input {
     padding: 12px 20px;
     margin: 8px 0 32px 0;
     border: 1px solid #ccc;
-    display: block;
-    box-sizing:border-box;
+    display: block;   
   }
 
 .cAction{
     width: 40%;
     padding: 2px 0px 16px 0px;
     text-align: left;
-    box-sizing:border-box;
     align-self: center;
 }
   .cButton{
